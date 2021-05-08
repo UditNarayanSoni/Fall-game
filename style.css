@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(orange, skyblue) fixed;
+}
+#game{
+  background: #fff;
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  border: 2px solid #222;
+}
+#ball{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid #333;
+  position: relative;
+  top: 400px;
+  left: 195px;
+  z-index: 1000;
+}
+.block{
+  width: 400px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+.hole{
+  width: 40px;
+  height: 20px;
+  background-color: #fff;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
